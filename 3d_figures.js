@@ -109,7 +109,7 @@ function createPyramid(gl, translation, rotationAxis){
     // }
     for (const color of faceColors)
     {
-        for (var j=0; j < 5; j++)
+        for (var j=0; j < 3; j++)
             vertexColors = vertexColors.concat(color);
     }
 
